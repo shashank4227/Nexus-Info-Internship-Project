@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/work.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <% if (typeof success !== 'undefined' && success) { %>
+    <script>
+      setTimeout(function () {
+        alert("We will get in touch with you shortly.");
+      }, 100);
+    </script>
+    <% } %>
+    <header class="scrolled">
+      <div class="container flex">
+        <a href="/" class="title flex">
+          <div class="image-container">
+            <img src="img/logo.png" alt="Logo" />
+          </div>
+        </a>
+        <nav class="nav">
+          <div class="navbar">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-x not-show"></i>
+          </div>
+          <ul>
+            <li><a href="/" target="_self">Home</a></li>
+            <li>
+              <a href="/work" target="_self">Work with us</a>
+            </li>
+            <li><a href="/contact" target="_self">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="background-opacity-nav-open not-show"></div>
+      </div>
+    </header>
+    <main>
+      <div class="info-section">
+        <h1>Work with Us</h1>
+        <p>
+          We would love to hear from you! Please fill out this form and we will
+          get in touch with you shortly.
+        </p>
+        <form action="/work_form" method="post">
+          <div class="input-buttons">
+            <label for="name"></label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Full Name"
+              required
+            />
+
+            <label for="email"></label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email Address"
+              required
+            />
+
+            <label for="phone"></label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Phone Number"
+            />
+          </div>
+          <div class="feedback">
+            <label for="message"></label>
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              placeholder="Please specify the software solutions or services you need here"
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
