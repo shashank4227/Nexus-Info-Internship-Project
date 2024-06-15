@@ -64,6 +64,24 @@ header .flex {
   align-items: center;
 }
 
+header .title {
+  line-height: 76px;
+  text-align: center;
+  vertical-align: middle;
+  color: var(--app-header-text-color);
+  text-decoration: none;
+  cursor: url("/img/pointer-32size.png"), pointer;
+}
+
+header .title h1 {
+  color: var(--app-header-text-color);
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  line-height: 76px;
+  margin-left: 5px;
+}
+
 nav {
   transition: all 0.25s ease-out;
 }
@@ -829,11 +847,6 @@ footer .copy p {
 .info-section {
   padding: 50px;
   margin: auto;
-  display:flex;
-  flex-direction:column;
-  flex-wrap:wrap;
-  justify-content:center;
-  align-items:center;
 }
 
 .info-section p {
