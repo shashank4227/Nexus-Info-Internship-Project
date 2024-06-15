@@ -36,8 +36,3 @@ app.use(express.urlencoded({ extended: true }));
 app.use(routes);
 app.use(feedbackController);
 app.use(workController);
-
-// // Start server
-app.listen(port, () =>
-  console.log(`Server running on http://localhost:${port}`)
-);
