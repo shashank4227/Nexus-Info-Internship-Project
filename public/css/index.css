@@ -921,7 +921,7 @@ footer .copy p {
 
 @media (max-width: 768px) {
   .info-section .feedback {
-  margin-top:100px;
+  margin-top:130px;
 }.info-section .input-buttons {
   height: 100px;
   display: flex;
