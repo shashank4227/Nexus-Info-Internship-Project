@@ -897,7 +897,6 @@ footer .copy p {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
 }
 .info-section .feedback {
   display: flex;
