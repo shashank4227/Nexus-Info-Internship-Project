@@ -922,5 +922,13 @@ footer .copy p {
 @media (max-width: 768px) {
   .info-section .feedback {
   margin-top:100px;
+}.info-section .input-buttons {
+  height: 100px;
+  display: flex;
+    flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap:wrap;
+  width:100%;
 }
 }
