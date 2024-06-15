@@ -932,3 +932,10 @@ footer .copy p {
   width:100%;
 }
 }
+@media (max-width: 480px) {
+.info-section .feedback {
+  margin-top:130px;
+
+}
+
+
