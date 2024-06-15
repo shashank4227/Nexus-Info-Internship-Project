@@ -898,7 +898,6 @@ footer .copy p {
   justify-content: center;
   align-items: center;
   flex-wrap:wrap;
-  width:100%;
 }
 .info-section .feedback {
   display: flex;
@@ -920,17 +919,15 @@ footer .copy p {
 }
 
 @media (max-width: 768px) {
-  .info-section .feedback {
-  margin-top:150px;
-}.info-section .input-buttons {
-  height: 100px;
+ .info-section .input-buttons {
+   height: 100px;
   display: flex;
-    flex-direction:column;
+   flex-direction:column;
   justify-content: center;
   align-items: center;
   flex-wrap:wrap;
-  width:100%;
-}
+
+  
 }
 
 
