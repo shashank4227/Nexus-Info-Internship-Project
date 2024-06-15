@@ -916,3 +916,9 @@ footer .copy p {
 .page-title {
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  .info-section .feedback {
+  margin-top:100px;
+}
+}
