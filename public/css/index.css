@@ -926,8 +926,16 @@ footer .copy p {
   justify-content: center;
   align-items: center;
   flex-wrap:wrap;
-
-  
+ }
 }
-
+@media (max-width: 480px) {
+ .info-section .input-buttons {
+   height: 100px;
+  display: flex;
+   flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap:wrap;
+ }
+}
 
