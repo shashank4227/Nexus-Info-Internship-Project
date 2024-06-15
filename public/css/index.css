@@ -919,9 +919,9 @@ footer .copy p {
 }
 
 @media (max-width: 768px), (max-width: 480px) {
-  .info-section .input-buttons {
-    height: 100px;
-    width:80%;
+  .info-section{
+    padding: 50px;
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
