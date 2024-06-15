@@ -823,6 +823,11 @@ footer .copy p {
 .info-section {
   padding: 50px;
   margin: auto;
+  display:flex;
+  flex-direction:column;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items:center;
 }
 
 .info-section p {
