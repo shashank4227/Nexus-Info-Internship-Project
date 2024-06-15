@@ -58,6 +58,12 @@ header {
   z-index: 95;
 }
 
+header .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 nav {
   transition: all 0.25s ease-out;
 }
