@@ -927,5 +927,11 @@ footer .copy p {
     justify-content: center;
     align-items: center;
   }
+  .info-section .feedback {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    margin-top:150px;
+}
 }
 
