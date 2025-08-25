@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 // MongoDB connection URI
-const mongoURI = "mongodb+srv://shashank4227:shashank4227@nexus.2ppgsnu.mongodb.net/?retryWrites=true&w=majority&appName=nexus";
+const mongoURI = "Add Your MONGO URI";
 
 // Function to connect to MongoDB
 const connectToMongo = async () => {
