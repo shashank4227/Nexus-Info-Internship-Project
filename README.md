@@ -12,7 +12,9 @@ A modern landing page showcasing **Nexus Info’s IT services and solutions**, i
 ## 🛠️ Tech Stack
 - **HTML5**  
 - **CSS3**  
-- **JavaScript**  
+- **Node.js**
+- **Express.js**  
+- **Mongo DB**  
 
 ## 📂 Project Setup
 Clone the repository and open `index.html` in your browser:  
