@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 // MongoDB connection URI
-const mongoURI = "Add Your MONGO URI";
+const mongoURI = process.env.MONGO_URI;
 
 // Function to connect to MongoDB
 const connectToMongo = async () => {
